@@ -10,7 +10,7 @@ img{
     max-width: 100%;
 }
 .container{
-    max-width: 1330px;
+    max-width: 1280px;
     margin: auto;
 }
 
@@ -223,4 +223,118 @@ header{
     font-size: 21px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+
+            /* Responsive css  */
+
+         /* Tablets Ipads portrait mode  */
+
+@media (max-width: 1024px) {
+    .slider-section {
+        padding: 50px 20px;
+    }
+    .slider-left-content h2 {
+        font-size: 50px;
+    }
+    .slider-left-content p {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .slider-left-content a {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .card {
+        width: 300px;
+        margin-left: 18px;
+    }
+    .card img {
+        width: 250px;
+    }
+}
+
+        /* Low Resolution Tablets and ipads */
+
+@media (max-width: 768px) {
+    .header-nav{
+        display: none;
+    }
+    .header-logo h2 {
+        font-size: 40px;
+        margin-left: 150px;
+        margin-bottom: -25px;
+    }
+    .slider-section {
+        margin-bottom: 25px;
+    }
+    .slider-left-content h2{
+        font-size: 43px;
+    }
+    .slider-left-content P{
+        font-size: 14px;
+    }
+    .company-logo {
+        padding: 0 20px;
+        margin-bottom: -50px;
+    }
+    .cards {
+        margin-top: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 35px;
+        margin-left: 25px;
+    }
+}
+
+        /* Mobile (Smartphone) */
+
+@media (max-width: 480px) {
+    .header-logo h2 {
+        font-size: 34px;
+        margin-left: 70px;
+    }
+    .slider-section {
+        margin-bottom: 25px;
+        display: block;
+    }
+    .slider-left-content h2 {
+        font-size: 30px;
+    }
+    .slider-left-content {
+        display: block;
+        margin-bottom: 50px;
+    }
+    .slider-left-content a {
+        font-size: 14px;
+        padding: 20px 30px;
+    }
+    .slider-right-img img {
+        width: 300px;
+        margin-left: 73px;
+        margin-top: 35px;
+    }
+    .logos {
+        display: none;
+    }
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 73px;
+    }
+    .card-info h2 {
+        font-size: 32px;
+    }
+    .newsletter-heading {
+        font-size: 23px;
+    }
+    .newsletter-heading-two {
+        font-size: 35px;
+    }
+    .newsletter-form input {
+        margin-bottom: 25px;
+    }
+    .newsletter-form a {
+        font-size: 30px;
+        margin-left: 0px;
+    }
+
 }
