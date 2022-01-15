@@ -289,16 +289,19 @@ header{
         /* Mobile (Smartphone) */
 
 @media (max-width: 480px) {
+    header {
+        padding: 20px;
+    }
     .header-logo h2 {
-        font-size: 28px;
-        margin-left: 70px;
+        font-size: 25px;
+        margin-left: 80px;
     }
     .slider-section {
         margin-bottom: 25px;
         display: block;
     }
     .slider-left-content h2 {
-        font-size: 27px;
+        font-size: 24px;
     }
     .slider-left-content {
         display: block;
@@ -306,11 +309,11 @@ header{
     }
     .slider-left-content a {
         font-size: 14px;
-        padding: 20px 30px;
+        padding: 20px 20px;
     }
     .slider-right-img img {
         width: 300px;
-        margin-left: 73px;
+        margin-left: 60px;
         margin-top: 35px;
     }
     .logos {
@@ -320,8 +323,19 @@ header{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 60px;
     }
+    .card-section h2 {
+        font-size: 35px;
+        margin-left: -5px;
+    }
     .card-info h2 {
-        font-size: 32px;
+        font-size: 27px;
+        margin-left: 25px;
+    }
+    .card-info h4 {
+        font-size: 25px;
+    }
+    .card {
+        margin-left: 15px;
     }
     .newsletter-heading {
         font-size: 18px;
@@ -335,7 +349,7 @@ header{
         padding: 20px 80px;
     }
     .newsletter-form a {
-        font-size: 30px;
+        font-size:27px;
         margin-left: 0px;
     }
 
