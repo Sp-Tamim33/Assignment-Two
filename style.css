@@ -290,7 +290,7 @@ header{
 
 @media (max-width: 480px) {
     .header-logo h2 {
-        font-size: 34px;
+        font-size: 28px;
         margin-left: 70px;
     }
     .slider-section {
@@ -298,7 +298,7 @@ header{
         display: block;
     }
     .slider-left-content h2 {
-        font-size: 30px;
+        font-size: 27px;
     }
     .slider-left-content {
         display: block;
@@ -318,19 +318,21 @@ header{
     }
     .cards {
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 73px;
+        margin-left: 60px;
     }
     .card-info h2 {
         font-size: 32px;
     }
     .newsletter-heading {
-        font-size: 23px;
+        font-size: 18px;
     }
     .newsletter-heading-two {
-        font-size: 35px;
+        font-size: 30px;
     }
     .newsletter-form input {
         margin-bottom: 25px;
+        font-size: 13px;
+        padding: 20px 80px;
     }
     .newsletter-form a {
         font-size: 30px;
